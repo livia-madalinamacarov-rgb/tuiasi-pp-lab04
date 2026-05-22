@@ -16,7 +16,8 @@ lab04/
 │       ├── CinemaServiceTest.kt
 │       └── NoteRepositoryTest.kt
 ├── .github/workflows/classroom.yml
-├── pom.xml
+├── build.gradle.kts
+├── settings.gradle.kts
 ├── ASSIGNMENT.md
 └── README.md
 ```
@@ -32,13 +33,13 @@ lab04/
 ## Cum rulezi
 
 ```bash
-mvn -B test
+gradle test
 ```
 
 ## Cerințe sistem
 
 - JDK 21 (Temurin recomandat)
-- Maven 3.8+
+- Gradle 8.11+ (sau IntelliJ cu suport Gradle)
 
 ## Citește mai mult
 

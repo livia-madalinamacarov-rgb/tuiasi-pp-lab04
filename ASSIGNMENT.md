@@ -173,5 +173,5 @@ Meniul afișează opțiunile: (1) Listare, (2) Încărcare, (3) Creare, (4) Ște
 ## Rulare teste
 
 ```bash
-mvn -B test
+gradle test
 ```
